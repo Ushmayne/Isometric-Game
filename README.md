@@ -1,2 +1,2 @@
 # Isometric-Game
-A fun third person shooter made in Unity.
+Creating a hack and slash in Unity, where the player will be playing from a isometric view.
