@@ -10,12 +10,17 @@ public class PlayerMovement : MonoBehaviour
     private float speed = 5;
     private float turnSpeed = 360;
     public int playerMaxHealth = 100;
+    public int playerMaxMana = 100;
     public int playerCurrentHealth;
+    public int playerCurrentMana;
     public PlayerHealth phb;
+    public PlayerAbility pab;
 
     void Start(){
         playerCurrentHealth = playerMaxHealth;
         phb.setHealth(playerCurrentHealth);
+        playerCurrentMana = playerMaxMana;
+        pab.setMana(playerMaxMana);
     }
 
     void Update(){
