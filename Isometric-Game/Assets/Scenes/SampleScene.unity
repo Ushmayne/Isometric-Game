@@ -235,7 +235,7 @@ MonoBehaviour:
   rb: {fileID: 58642521}
   playerMaxHealth: 100
   playerCurrentHealth: 0
-  phb: {fileID: 0}
+  phb: {fileID: 1134260873}
 --- !u!54 &58642521
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -853,7 +853,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 538, y: -266}
+  m_AnchoredPosition: {x: 187.7, y: -49.4}
   m_SizeDelta: {x: 322.2491, y: 41.73831}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1134260872
